@@ -52,9 +52,9 @@
                                 Галерия
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Снимки по проект</a>
-                                <a class="dropdown-item" href="#">Снимки на дневен център</a>
-                                <a class="dropdown-item" href="#">Снимки на ДМСГД</a>
+                                <a asp-controller="Galleries" asp-action="PhotosByProject" class="dropdown-item">Снимки по проект</a>
+                                <a asp-controller="Galleries" asp-action="PhotosOfDailyCenter" class="dropdown-item">Снимки на дневен център</a>
+                                <a asp-controller="Galleries" asp-action="PhotosOfHmscc" class="dropdown-item">Снимки на ДМСГД</a>
                             </div>
                         </div>
                     </li>
