@@ -5,3 +5,5 @@
 /.vs/HMSCC/v15
 node_modules
 /HMSCC/wwwroot/img
+/HMSCC/bin
+/HMSCC/obj
