@@ -65,10 +65,10 @@
                                 Профил на купувача
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Обявени поръчки</a>
-                                <a class="dropdown-item" href="#">Възложени поръчки</a>
-                                <a class="dropdown-item" href="#">Приключени поръчки</a>
-                                <a class="dropdown-item" href="#">Вътрешни правила</a>
+                                <a asp-controller="BuyerProfiles" asp-action="AnnouncedOrders" class="dropdown-item">Обявени поръчки</a>
+                                <a asp-controller="BuyerProfiles" asp-action="AssignedOrders" class="dropdown-item">Възложени поръчки</a>
+                                <a asp-controller="BuyerProfiles" asp-action="FinishedOrders" class="dropdown-item">Приключени поръчки</a>
+                                <a asp-controller="BuyerProfiles" asp-action="InternalRegulations" class="dropdown-item">Вътрешни правила</a>
                             </div>
                         </div>
                     </li>
